@@ -1,0 +1,25 @@
+{
+  "name": "wxappy",
+  "version": "0.0.0",
+  "description": "小程序helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --recursive --require src/test/setup.js src/test/**/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jackong/wxappy.git"
+  },
+  "keywords": [
+    "weapp",
+    "wxapp",
+    "wechat",
+    "小程序"
+  ],
+  "author": "jackong <jackongc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jackong/wxappy/issues"
+  },
+  "homepage": "https://github.com/Jackong/wxappy#readme"
+}
