@@ -1,11 +1,10 @@
 {
   "name": "wxappy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "小程序helper",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel src --out-dir lib",
-    "test": "mocha --compilers js:babel-core/register --recursive --require src/test/setup.js src/test/**/*-test.js"
+    "build": "babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
